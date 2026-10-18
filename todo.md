@@ -1,6 +1,6 @@
-# Research Paper Master Plan & TODO: Unicode Adoption and Its Impact on Kannada Digital Journalism
+# Research Paper Master Plan & TODO: Unicode Adoption and Its Advantages: A Study on Kannada Digital News Media
 
-**Paper Title:** *Unicode Adoption and Its Impact on Kannada Digital Journalism*  
+**Paper Title:** *Unicode Adoption and Its Advantages: A Study on Kannada Digital News Media*  
 **Conference:** Rethinking Communication in Regional Media: Platformisation, Labour, and Digital Publics  
 **Organizers:** Department of Media Studies, CHRIST (Deemed to be University), Bangalore Yeshwanthpur Campus in collaboration with International Communication Association (ICA) India Chapter  
 **Conference Dates:** January 21–22, 2027  
@@ -42,11 +42,11 @@
   - *Infrastructural Turn in Media Studies* (Plantin et al., Star & Bowker): Encoding standards as invisible media infrastructure.
   - *Platformisation & Mediatization of Vernacular Media* (Poell, Nieborg, Duffy): How platform architectures shape vernacular language visibility.
   - *Linguistic Digital Divide & Vernacular Public Spheres* (Neyazi, Udupa).
-- [ ] **Establish Empirical Methodology:**
-  - *Mixed Methods Approach:*
-    - Qualitative: Semi-structured in-depth interviews ($N = 6-8$) with Kannada digital journalists, senior web editors (e.g., Prajavani, Vijaya Karnataka, Vartha Bharati, Kannada Prabha, Oneindia Kannada), and digital archivist/type developers.
-    - Digital Archival & Content Analysis: Tracing digital evolution of Kannada news websites from early 2000s web archives (Wayback Machine) to contemporary responsive, Unicode-native CMS.
-- [ ] **First Guide Sync Prep:** Compile a 1-page bulleted concept note highlighting RQs, Theory, and Method for Guide alignment.
+- [x] **Establish Empirical Methodology (Interview-Free Design):**
+  - *Non-Reactive Empirical Design:* Technical comparative audit & longitudinal web archival analysis.
+  - *Data Source:* Internet Archive (Wayback Machine) historical snapshots (2000–2024) of 4 major Kannada digital news portals (*Prajavani*, *Vijaya Karnataka*, *Kannada Prabha*, *ThatsKannada / Oneindia Kannada*).
+  - *Evaluation Matrix:* 5-point benchmark auditing character encoding declarations, DOM machine-readability, search engine crawlability (SEO), platform metadata (Open Graph), and font asset independence.
+- [x] **Outline Created:** Formulated outline in [Abstract -Unicode Adoption and Its Advantages: A Study on Kannada Digital News Media.md](file:///Users/arunck/Documents/GitHub/imarunck/paper01/Abstract%20-Unicode%20Adoption%20and%20Its%20Advantages:%20A%20Study%20on%20Kannada%20Digital%20News%20Media.md).
 
 ---
 
@@ -96,14 +96,14 @@
 > **Goal:** Conduct fieldwork, expert interviews, and data synthesis immediately upon receiving acceptance notification.
 
 - [ ] **Nov 10:** Receive Notification of Acceptance & Reviewer Comments.
-- [ ] **Nov 11–12:** Analyze reviewer feedback with Guide; fine-tune interview questionnaire.
+- [ ] **Nov 11–12:** Analyze reviewer feedback with Guide; finalize digital portal snapshot dataset.
 - [ ] **Nov 13–20:** 
   - [ ] Complete early bird registration before **Nov 20, 2026**.
-  - [ ] Conduct 6–8 semi-structured interviews with Kannada journalists, web desk heads, and typography specialists.
-  - [ ] Transcribe and code interview transcripts using thematic analysis.
+  - [ ] Extract Wayback Machine DOM snapshots & HTTP headers for *Prajavani*, *Vijaya Karnataka*, *Kannada Prabha*, and *Oneindia Kannada* across 2000–2024.
+  - [ ] Benchmark machine-readability, character encoding shifts (`windows-1252` / dynamic font download vs `UTF-8`), and Open Graph integration.
 - [ ] **Nov 21–25:**
-  - [ ] Perform historical analysis on Wayback Machine snapshots of key Kannada news portals (2000–2025).
-  - [ ] Prepare analytical tables and comparative diagrams (e.g., ASCII vs Unicode workflow pipeline).
+  - [ ] Synthesize empirical data into comparative matrix tables and architectural diagrams (e.g., Legacy Font Hack Pipeline vs. Modern Unicode News Pipeline).
+  - [ ] Document the "archival black hole" discovery: quantify unindexed legacy content.
 
 ---
 
